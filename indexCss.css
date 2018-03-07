@@ -1,0 +1,78 @@
+table 
+{
+	margin-top : 20px;
+	background: transparent;
+	border-collapse: collapse;
+}
+
+th,td 
+{
+	padding:7px;
+	width : 30px;
+	text-align: center;
+	position : relative;
+}
+
+.centarSelected
+{
+	background-color: rgb(204,230,255);
+}
+
+.lijevo
+{
+	text-align : left;
+}
+
+.lijevoSelected
+{
+	text-align :left;
+	background-color: rgb(204,230,255);
+}
+
+.levo 
+{
+		text-align : left;
+		width : 350px;
+}
+
+td img 
+{
+	display : block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type=text]
+{
+	width: 25%;
+	height : 20px;
+	border: 2px solid #aaa;
+	border-radius : 4px;
+	margin: 10 px;
+	padding: 7px;
+}
+
+
+button.add
+{
+	padding : 9px;
+	background-color : rgb(0,62,172);
+	color : white;
+	margin-left : 10px;
+	font-size : 13px;
+	text-align : center;
+	border-radius : 5px;
+}
+
+td checkbox
+{
+	width : 30px;
+}
+
+
+button.image
+{
+	background-image : url("kanta.png");
+	width : 20px;
+	height : 20px;
+}
